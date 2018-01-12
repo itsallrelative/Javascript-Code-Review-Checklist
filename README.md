@@ -12,15 +12,18 @@ A checklist specific to doing code reviews for javascript based projects.
 - [ ] Do loops have a set length and correct termination conditions?
 - [ ] Can any of the code be replaced with library functions?
 - [ ] Can any logging or debugging code be removed?
+- [ ] Does logging code need to be added? (error checking and handling)
 
 ## Coding Best Practices
 
 [Google's JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
+
 [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 
 
 ## Security
 [OWASP Code Review Guide](https://www.owasp.org/images/f/fd/Code_review_guide_singleColumn_V05_%281%29.pdf)
+
 - [ ] Are all data inputs checked (for the correct type, length, format, and range) and encoded?
 - [ ] Where third-party utilities are used, are returning errors being caught?
 - [ ] Are output values checked and encoded?
@@ -42,6 +45,7 @@ A checklist specific to doing code reviews for javascript based projects.
 - [ ] Could any test code be replaced with the use of an existing API?
 
 ## ES6/7
+- [ ] ```const or let``` used, instead of ```var```
 
 ## References
 [Stop More Bugs with our Code Review Checklist](https://blog.fogcreek.com/increase-defect-detection-with-our-code-review-checklist-example/)
