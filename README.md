@@ -16,16 +16,18 @@ A checklist specific to doing code reviews for javascript based projects.
 ## Coding Best Practices
 
 [Google's JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
+[Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 
 
 ## Security
+[OWASP Code Review Guide](https://www.owasp.org/images/f/fd/Code_review_guide_singleColumn_V05_%281%29.pdf)
 - [ ] Are all data inputs checked (for the correct type, length, format, and range) and encoded?
 - [ ] Where third-party utilities are used, are returning errors being caught?
 - [ ] Are output values checked and encoded?
 - [ ] Are invalid parameter values handled?
 
 ## Documentation
-- [ ] - [ ] Do comments exist and describe the intent of the code?
+- [ ] Do comments exist and describe the intent of the code?
 - [ ] Are all functions commented?
 - [ ] Is any unusual behavior or edge-case handling described?
 - [ ] Is the use and function of third-party libraries documented?
@@ -39,4 +41,7 @@ A checklist specific to doing code reviews for javascript based projects.
 - [ ] Are arrays checked for ‘out-of-bound’ errors?
 - [ ] Could any test code be replaced with the use of an existing API?
 
+## ES6/7
+
 ## References
+[Stop More Bugs with our Code Review Checklist](https://blog.fogcreek.com/increase-defect-detection-with-our-code-review-checklist-example/)
