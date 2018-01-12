@@ -23,7 +23,9 @@ A checklist specific to doing code reviews for javascript based projects.
 [ ] Can any logging or debugging code be removed?
 
 ## Coding Best Practices
+
 [Google's JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
+
 [ ] Readable
 
 ## Security
