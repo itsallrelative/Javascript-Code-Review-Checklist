@@ -1,16 +1,16 @@
-# Javascript-Code-Review-Checklist
+# Javascript Code Review Checklist
 A checklist specific to doing code reviews for javascript based projects.
 
 ## General
 - [ ] Does the code work? Does it perform its intended function, the logic is correct etc.
 - [ ] Is all the code easily understood?
 - [ ] Does it conform to your agreed coding conventions? These will usually cover location of braces, variable and function names, line length, indentations, formatting, and comments.
-- [ ] Is there any redundant or duplicate code?
+- [ ] Is the code [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)?
 - [ ] Is the code as modular as possible?
 - [ ] Can any global variables be replaced?
-- [ ] Is there any commented out code?
+- [ ] Is there any commented out code? (No need to leave in commented out code with source control)
 - [ ] Do loops have a set length and correct termination conditions?
-- [ ] Can any of the code be replaced with library functions?
+- [ ] Can any of the code be replaced with library functions? (Lodash, Underscore, jQuery, etc.)
 - [ ] Can any logging or debugging code be removed?
 - [ ] Does logging code need to be added? (error checking and handling)
 
@@ -28,6 +28,8 @@ A checklist specific to doing code reviews for javascript based projects.
 - [ ] Where third-party utilities are used, are returning errors being caught?
 - [ ] Are output values checked and encoded?
 - [ ] Are invalid parameter values handled?
+
+## Performance
 
 ## Documentation
 - [ ] Do comments exist and describe the intent of the code?
